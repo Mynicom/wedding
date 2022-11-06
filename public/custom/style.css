@@ -1,0 +1,25 @@
+.bg-hero .carousel-item{
+    z-index: 0;
+}
+.text-hero{
+    position: absolute;
+    z-index: 2;
+    color: white;
+
+}
+.cover-hitam{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 733px;
+    background: rgba(27, 27, 27, 0.3);
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: 247px;
+    overflow-x: hidden;
+}
