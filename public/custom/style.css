@@ -1,25 +1,66 @@
-.bg-hero .carousel-item{
-    z-index: 0;
+/* hero section */
+.slide{
+    z-index: -1;
 }
 .text-hero{
+    margin-top: 10%; 
+    padding:10;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     color: white;
+}
+#pawiwahan{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 20px;
+}
+#pp{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 115px;
+}
+.span-tgl{
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
 
+    border-style:solid; 
+    border-radius:10px;
+    padding: 2px 25px;
 }
 .cover-hitam{
     width: 100%;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     top: 0;
     left: 0;
     height: 733px;
     background: rgba(27, 27, 27, 0.3);
 }
-.wave{
-    position: absolute;
+.wave img{
+    width: 100%; 
+    z-index: 1 ;
+    margin-top:-72%;
+}
+.pawiwahan{
+    z-index: 1;
+    margin-top:-24%;
+    min-height: 100px;
+    background-color: white;
+}
+.bg{
+    z-index: 1;
     width: 100%;
-    z-index: 2;
-    top: 247px;
-    overflow-x: hidden;
+    padding: 10px 0;
+    
+}
+/* end hero section */
+@media screen and (min-width:768px) {
+   
+    
 }
