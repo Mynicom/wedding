@@ -40,25 +40,41 @@
     top: 0;
     left: 0;
     height: 733px;
-    background: rgba(27, 27, 27, 0.3);
+    background: rgba(27, 27, 27, 0.4);
 }
 .wave img{
     width: 100%; 
     z-index: 1 ;
     margin-top:-72%;
 }
-.pawiwahan{
+.kata-pengantar{
     z-index: 1;
     margin-top:-24%;
-    min-height: 100px;
+    min-height: 500px;
     background-color: white;
 }
-.bg{
-    z-index: 1;
-    width: 100%;
-    padding: 10px 0;
-    
+.pengantar{
+    margin-top: 7%;
 }
+.ormerak{
+    width:35%;
+}
+.swastyastu{
+    width:25%;
+}
+#pengantar{
+    margin-top: 5%;
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    text-align: center;
+}
+#pengantar p{
+    width: 75%;
+}
+
 /* end hero section */
 @media screen and (min-width:768px) {
    
