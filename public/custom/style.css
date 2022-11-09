@@ -1,14 +1,42 @@
-/* hero section */
+/* slide section */
 .slide{
     z-index: -1;
 }
+.carousel-item img{
+    width: 100vh;
+    height: 95vh;
+}
+.wave img{
+    width: 100%; 
+    z-index: 1 ;
+    margin-top:-30%;
+}
+.bg-putih{
+    background-color: white;
+    margin-top: -2%;
+    width: 100%;
+    min-height: 80px;
+}
+.cover-hitam{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba(27, 27, 27, 0.4);
+}
 .text-hero{
-    margin-top: 10%; 
+    margin-top: 20%; 
     padding:10;
     position: absolute;
     z-index: 1;
     color: white;
 }
+/* end section */
+
+/* hero section */
+
 #pawiwahan{
     font-family: 'David Libre';
     font-style: normal;
@@ -33,31 +61,18 @@
     border-radius:10px;
     padding: 2px 25px;
 }
-.cover-hitam{
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    height: 733px;
-    background: rgba(27, 27, 27, 0.4);
-}
-.wave img{
-    width: 100%; 
-    z-index: 1 ;
-    margin-top:-72%;
-}
+
+
+/* end hero section */
+
+/* pengantar */
 .kata-pengantar{
     z-index: 1;
-    margin-top:-24%;
+    margin-top:-1%;
     min-height: 500px;
-    background-color: white;
 }
 .pengantar{
     margin-top: 7%;
-}
-.ormerak{
-    width:35%;
 }
 .swastyastu{
     width:25%;
@@ -74,9 +89,120 @@
 #pengantar p{
     width: 75%;
 }
+/* end pengantar */
 
-/* end hero section */
-@media screen and (min-width:768px) {
-   
+/* pawiwahan */
+.pawiwahan{
+    margin-top: 12%;
+    min-height: 400px;
+}
+.jpaw{
+
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 10px;
+}
+#purnama{
+    margin-right: -6%;
+}
+#purni{
+    margin-left: -5%;
+}
+.ormerak2 img{
+    margin-bottom: 2%;
+}
+.dan{
+    margin-top: -200px;
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #B38A3B;
+}
+.pur img{
+    width: 74%;
+}
+.pur h1{
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+    color:black;
+}
+.pur p{
+    font-family: 'Damion';
+    font-style: normal;
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
+    color:#454545;
+}
+.jmep{
+    margin-top: 10%;
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 10px;
+}
+#maniko{
+    width: 30%;
+}
+/* end pawiwahan */
+@media screen and (max-width:992px) {
+    #purnama{
+        margin-right: 0;
+    }
+    #purni{
+        margin-left: 0;
+    }
+    .dan{
+        margin-top: 0;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 115px;     
+    }
+    #maniko{
+        width: 70%;
+    }
+}
+@media screen and (max-width:576px) {
+    .dan{
+        margin-top: 0;
+        font-weight: 700;
+        font-size: 60px;
+        
+    }
     
+}
+
+.carousel-item{
+    animation: fade 8s infinite;
+}
+.carousel-item{
+    animation: fade 8s infinite;
+}
+.carousel-item{
+    animation: fade 8s infinite;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
 }
