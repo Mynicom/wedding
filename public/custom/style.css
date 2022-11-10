@@ -358,6 +358,49 @@ html,body{
 }
 
 
+.shanti .om 
+{
+    margin-top: 10%;
+}
+
+.wrapjam .shanti .bgom .ya
+{
+    content: "";
+    background: url(/public/image/bgshanti.svg) no-repeat;
+    background-position: center; 
+    height: 180%;
+}
+.wrapjam .shanti .bgom
+{
+    margin-top: 10%;
+}
+.wrapjam .shanti .bgom .weda
+{
+    margin-top: -2%;
+}
+ .wrapjam .shanti .bgom  h1
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 31px;
+    color: #1F1E1E;
+    width: 69%;
+}
+
+.wrapjam .shanti .bgom .weda h2
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 31px;
+    color: #B38A3B;
+    
+}
+
+
 /* end pawiwahan */
 @media screen and (max-width:992px) {
     #purnama{
