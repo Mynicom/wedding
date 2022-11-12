@@ -99,7 +99,8 @@ html,body{
 
 /* pengantar */
 .kata-pengantar{
-    z-index: 1;
+    position: relative;
+    z-index: -1;
     margin-top:-1%;
     min-height: 500px;
 }
@@ -125,6 +126,7 @@ html,body{
 
 /* pawiwahan */
 .pawiwahan{
+    position: relative;
     margin-top: 12%;
     min-height: 400px;
 }
@@ -190,6 +192,40 @@ html,body{
 .bahagia
 {
     margin-top: 72px;
+    position: relative;
+}
+
+.mandala-kiri-bahagia{
+    position: absolute;
+    top: 500px;
+    z-index: -2;
+}
+.mandala-kiri-pengantar{
+    position: absolute;
+    width: 150px;
+    top: 100px;
+    left: 0px;
+}
+.mandala-kiri-pengantar img {
+    width: 100% !important;
+}
+
+.mandala-kanan {
+    width: 220px;
+}
+.mandala-kanan img {
+    width: 100%;
+}
+
+.mandala-kanan-pawiwahan {
+    position: absolute;
+    top: -200px;
+    right: 0;
+    z-index: -1;
+}
+.mandala-kanan-mepandes {
+    position: absolute;
+    right: 0;
 }
 
 .bahagia .wrapjam 
@@ -674,9 +710,22 @@ html,body{
         width: 70px;
         height: 70px;
     }
+    .mandala-kiri{
+        width: 120px !important;
+    }
+    .mandala-kiri img {
+        width: 100% !important;
+    }
+
+    .rebab{
+        width: 50px !important;
+        top: 70px !important;
+        right: 30px !important;
+    }
 /* end pengantar */
 /* pawiwahan */
 .pawiwahan{
+    position: relative;
     margin-top: 20%;
     min-height: 400px;
 }
@@ -1099,6 +1148,32 @@ html,body{
         width: 70px;
         height: 70px;
     }
+    .mandala-kiri-pengantar{
+        width: 80px !important;
+        top: 30px !important;
+    }
+    .calung{
+        position: absolute;
+        left: 25px !important;
+        width: 80px !important;
+    }
+    .mandala-kiri-mepandes { 
+        width: 90px !important;
+        position: absolute;
+        bottom: 450px !important;
+    }
+    .gender{
+        position: absolute;
+        right: 25px !important; 
+        bottom: 540px !important;
+        width: 70px !important;
+    }
+    .kendang{
+        position: absolute;
+        left: 16px !important; 
+        width: 120px !important  ;
+        top: -70px !important;
+    }
 /* end pengantar */
 /* pawiwahan */
 .pawiwahan{
@@ -1484,6 +1559,44 @@ html,body{
 /* end bukutamu */
 
 }
+
+.rebab{
+    position: absolute;
+    right: 150px;
+    top: 100px;
+    width: 70px;
+}
+
+.calung{
+    position: absolute;
+    top: -25px;
+    bottom: 200px;
+    left: 50px;
+    width: 120px;
+}
+.rebab img , .calung img, .gender img, .kendang img {
+    width: 100%;
+}
+
+.mandala-kiri-mepandes { 
+    position: absolute;
+    bottom: 300px;
+}
+
+.gender{
+    position: absolute;
+    right: 60px; 
+    bottom: 450px;
+    width: 130px;
+}
+.kendang{
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+
+}
+
 /* 
 .carousel-item{
     animation: fade 8s infinite;
