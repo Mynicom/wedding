@@ -8,25 +8,27 @@ html,body{
     display: none;
 }
 .bg-hero{
+   
+    z-index: -1;
     width: 100%;
     height: 100%;
 }
 .slideshow {
+    position: absolute;
     width:100%;
     height:100vh; 
   }
   .slideshow .slider-track {
     transition: all 1s ease;
-    
   }
   .slideshow .item {
-    object-fit: cover;
-    z-index: -1;
-    
+    width: 100%;
+    height:100vh; 
   }
   .slideshow .item img{
-    z-index: -1;
+    margin-top: -5%;
     width: 100%;
+    height: 100%;
     transition: all 2s ease;
     transform: scale(1);
   }
@@ -43,11 +45,14 @@ html,body{
     background: rgba(27, 27, 27, 0.4);
 }
 .wave img{
-    width: 100%; 
-    z-index: 3;
-    margin-top:-50%;
+    width: 100%;
+    position: relative; 
+    z-index: 1;
+    margin-top: -32%;
 }
 .bg-putih{
+    z-index: 1;
+    position: relative; 
     background-color: white;
     margin-top: -2%;
     width: 100%;
@@ -602,7 +607,7 @@ html,body{
     }
 
 }
-@media screen and (max-width:690px) {
+@media screen and (max-width:700px) {
     .slide-pc{
         display: none;
     }
@@ -617,10 +622,7 @@ html,body{
         z-index: 1;
         color: white;
     }
-    .wave img{
-        width: 100%; 
-        margin-top:-2%;
-    }
+    
     #pawiwahan{
         margin-bottom: -6px;
         font-weight: 700;
@@ -823,7 +825,7 @@ html,body{
 {
     padding-top: 10px;
     border-radius: 20px;
-    width: 160px;
+    width: 170px;
     height: 75px;
 }
 
@@ -984,7 +986,7 @@ html,body{
 } 
 .title{
     font-weight: 400;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 53px;
     margin-bottom: 5%;
 }
