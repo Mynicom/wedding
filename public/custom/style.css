@@ -480,6 +480,9 @@ html,body{
 }
 
 /* bukutamu */
+.bukutamu{
+    margin-top: 30%;
+}
 .bg-form-buku{
     
     font-family: 'Roboto';
@@ -602,41 +605,425 @@ html,body{
 }
 
 /* width */
-/* .comment-section::-webkit-scrollbar {
+.comment-section::-webkit-scrollbar {
     
     width: 10px;
-} */
+}
   
   /* Track */
-  /* .comment-section::-webkit-scrollbar-track {
+  .comment-section::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-  } */
+  }
   
   /* Handle */
-  /* .comment-section::-webkit-scrollbar-thumb {
+  .comment-section::-webkit-scrollbar-thumb {
     background: #BE7F04;
     border-radius: 50px;
   }
-   */
+  
 
 /* end bukutamu */
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:990px) {
+    /* slide */
     
-    
-    .dan{
-        margin-top: 0;
-        font-weight: 700;
-        font-size: 80px;
-        line-height: 115px;     
+    .text-hero{
+        margin-top: 30%; 
+        position: absolute;
+        z-index: 1;
+        color: white;
     }
-    #maniko{
-        width: 70%;
+    
+    #pawiwahan{
+        margin-bottom: -6px;
+        font-size: 28px;
+    }
+    #pp{
+        font-size: 59px;
+        
+    }
+    .span-tgl{
+        margin-bottom: -6px;
+        font-size: 17px;
+        line-height: 23px;
+        border-radius:10px;
+        padding: 2px 25px;
+    }
+    /* end slide */
+    /* pengantar */
+
+    .pengantar{
+        margin-top: 15%;
+    }
+    #ormerak{
+        width: 60%;
+    }
+    .swastyastu{
+        width:50%;
+    }
+    #pengantar{
+        margin-top: 10%;
+        font-size: 20px;
+    }
+    #pengantar p{
+        width: 78%;
     }
 
+    .comment-section .comment-profile{
+        width: 70px;
+        height: 70px;
+    }
+/* end pengantar */
+/* pawiwahan */
+.pawiwahan{
+    margin-top: 20%;
+    min-height: 400px;
 }
-@media screen and (max-width:700px) {
+#jpaw{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.ormerak2 img{
+    width: 67%;
+    margin-bottom: 2%;
+}
+.dan{
+    margin-top: 0;
+    font-size: 80px;
+}
+.pur img{
+    width: 65%;
+}
+.pur h1{
+   
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+}
+.pur p{
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.jmep{
+    margin-top: 150px;
+    font-size: 20px;
+}
+#maniko{
+    width: 64%;
+}
+/* end pawiwahan */
+
+/* acara dan lokasi section */
+.bahagia
+{
+    margin-top: 85px;
+}
+
+#acaralok{
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+.bahagia .acara .card
+{
+    padding: 6% 3%;
+    width: 90%;   
+}
+.acara #ormerak{
+    width: 90% !important;
+}
+.bahagia .acara .card #resep
+{
+    font-size: 42px;
+}
+
+.bahagia .acara .card .resep .waktu h1
+{
+   margin-top: 2px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+#space
+{
+    width: 70%;
+
+}
+
+.gmap{
+    line-height: 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 60%;
+    min-height: 30px;
+}
+
+.bahagia .acara .card .resep .waktu .iconify
+{
+    width: 12%;
+    margin-right: 5%;   
+}
+#gmap{
+    margin-top: -3%;
+    margin-left: 7px;
+    width: 14%;
+}
+.gmap:hover{
+    transition: 0.5s;
+    background-color: goldenrod;
+}
+
+#menuju
+{
+    font-size: 34px;
+    /* identical to box height */
+    margin-top: 8%;
+ 
+    
+}
+
+.jam
+{
+    margin-top: 3%;
+    width: 90%;
+}
+
+.kotak
+{
+    padding-top: 10px;
+    border-radius: 20px;
+    width: 170px;
+    height: 100px;
+}
+
+.bahagia .jam .garis
+{
+    height: 50%;
+    margin: 0 3%;
+    border-right: 4px solid #6B6B6B;
+}
+
+.bahagia .jam .kotak h3
+{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 39px;
+    margin-bottom: -16px;
+    color: #FFFFFE;
+}
+.bahagia .jam .kotak span
+{
+ 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 39px;
+}
+
+.bahagia .wrapjam .doa
+{
+    margin-top: 15%;
+    width: 90%;
+}
+.bahagia .wrapjam .doa span
+{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bahagia .wrapjam .doa #kami
+{
+    margin-top: 10%;
+}
+
+.bahagia .wrapjam .orangtua
+{
+    margin-top: 5%;
+
+}
+.bahagia .wrapjam .orangtua span
+{
+    margin: 0px 100px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+}
+.bahagia .wrapjam .orangtua .bawa #bawa
+{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    margin-bottom: 15%;
+}
+
+.bahagia .wrapjam .orangtua .nun #nun
+{
+   
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    margin-bottom: 15%;
+}
+
+
+/* penutup */
+.wrapjam .shanti .bgom
+{
+    margin-top: 10%;
+}
+.wrapjam .shanti .bgom .weda
+{
+    margin-top: -5%;
+}
+ .wrapjam .shanti .bgom  h1
+{
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #1F1E1E;
+    width: 60%;
+}
+
+.wrapjam .shanti .bgom .weda h2
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 31px;
+    color: #B38A3B;
+    
+} 
+
+/* end penutup *//* penutup */
+.wrapjam .shanti .bgom .ya
+{
+    background: url(/public/image/bgshanti.svg) no-repeat;
+    background-size:700px;
+    background-position: center;
+    height: 160%;
+    width: 100%;
+}
+.wrapjam .shanti .bgom
+{
+    margin-top: 10%;
+     
+}
+.wrapjam .shanti .bgom .weda
+{
+    margin-top: -5%;
+   
+}
+ .wrapjam .shanti .bgom  h1
+{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+    width: 80%;
+    
+}
+#wedabooks{
+    width: 70px;
+    
+}
+.wrapjam .shanti .bgom .weda h2
+{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+ 
+} 
+.santhi{
+    margin-top: 15%;
+    width: 80%;
+    
+} 
+.title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    margin-bottom: 5%;
+}
+/* end penutup */
+
+/* galery */
+.galery{
+    margin-top: 300px;
+}
+#ormerak-gal{
+    width: 60%;
+}
+/* end galery */
+/* bukutamu */
+.bukutamu{
+    margin-top: 100px;
+}
+#ormerak3{
+    width: 50%;
+}
+.bg-form-buku{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    padding: 3% 6%;
+    width: 100%;
+}
+.hadir{
+    margin-top: 5px;
+    margin-left:0px;
+    font-size: 10px;
+    height: 50%;
+}
+.hadir span{
+    width: 30px;
+    margin-left: 4px;
+}
+.ring{
+    width: 5%;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.komen-bg{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: -4%;
+}
+.text-komen{
+    padding-left: 2%;
+    padding-bottom: 0;
+}
+.comment h1{
+    font-weight: 700;
+    font-size: 5px;
+    line-height: 35px;
+    margin-bottom:-6%;
+}
+.com-ucapan{
+    font-weight: 500;
+    font-size:5px;
+    line-height: 35px;
+    margin-bottom: -10px;
+}
+.kirim{
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 20%;
+    min-height: 35px;
+}
+  
+/* end bukutamu */
+
+}
+@media screen and (max-width:680px) {
     .slide-pc{
         display: none;
     }
@@ -1093,24 +1480,7 @@ html,body{
     width: 20%;
     min-height: 35px;
 }
-
-/* width */
-/* .comment-section::-webkit-scrollbar {
-    
-    width: 10px;
-} */
   
-  /* Track */
-  /* .comment-section::-webkit-scrollbar-track {
-    border-radius: 10px;
-  }
-   */
-  /* Handle */
-  /* .comment-section::-webkit-scrollbar-thumb {
-    border-radius: 50px;
-  } */
-  
-
 /* end bukutamu */
 
 }
