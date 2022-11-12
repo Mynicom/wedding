@@ -1,0 +1,1511 @@
+/* slide section */
+html,body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;  
+}
+.slide-mobile{
+    display: none;
+}
+.bg-hero{
+   
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.slideshow {
+    position: absolute;
+    width:100%;
+    height:100vh; 
+  }
+  .slideshow .slider-track {
+    transition: all 1s ease;
+  }
+  .slideshow .item {
+    width: 100%;
+    height:100vh; 
+  }
+  .slideshow .item img{
+    margin-top: -5%;
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease;
+    transform: scale(1);
+  }
+  .slideshow .item.slick-active img {
+    transform: scale(1.2);
+  }
+.cover-hitam{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba(27, 27, 27, 0.4);
+}
+.wave img{
+    width: 100%;
+    position: relative; 
+    z-index: 1;
+    margin-top: -32%;
+}
+.bg-putih{
+    z-index: 1;
+    position: relative; 
+    background-color: white;
+    margin-top: -2%;
+    width: 100%;
+    min-height: 80px;
+}
+
+.text-hero{
+    margin-top: 20%; 
+    position: absolute;
+    z-index: 1;
+    color: white;
+}
+/* end section */
+
+/* hero section */
+
+#pawiwahan{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 20px;
+}
+#pp{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 115px;
+}
+.span-tgl{
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    border-style:solid; 
+    border-radius:10px;
+    padding: 2px 25px;
+}
+
+
+/* end hero section */
+
+/* pengantar */
+.kata-pengantar{
+    z-index: 1;
+    margin-top:-1%;
+    min-height: 500px;
+}
+.pengantar{
+    margin-top: 7%;
+}
+.swastyastu{
+    width:25%;
+}
+#pengantar{
+    margin-top: 5%;
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    text-align: center;
+}
+#pengantar p{
+    width: 75%;
+}
+/* end pengantar */
+
+/* pawiwahan */
+.pawiwahan{
+    margin-top: 12%;
+    min-height: 400px;
+}
+.jpaw{
+
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 10px;
+}
+#ormerak{
+    width: 40%;
+}
+.ormerak2 img{
+    margin-bottom: 2%;
+}
+.dan{
+    margin-top: -200px;
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #B38A3B;
+}
+.pur img{
+    width: 74%;
+}
+.pur h1{
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+    color:black;
+}
+.pur p{
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 40px;
+    text-align: center;
+    color:#272727;
+}
+.jmep{
+    margin-top: 10%;
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 10px;
+}
+#maniko{
+    width: 30%;
+}
+/* end pawiwahan */
+
+/* acara dan lokasi section */
+.bahagia
+{
+    margin-top: 72px;
+}
+
+.bahagia .wrapjam 
+{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    margin-top: 10%;
+    color: #4E4E4E;
+    
+}
+
+#menuju
+{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    /* identical to box height */
+    text-align: center;
+    margin-top: 5%;
+    color: #4E4E4E;
+    
+}
+
+.jam
+{
+    margin-top: 5%;
+    width: 60%;
+}
+
+.kotak
+{
+    padding-top: 10px;
+    background: #B38A3B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 140px;
+    height: 100px;
+}
+
+.bahagia .jam .garis
+{
+    height: 60%;
+    margin: 0 3%;
+    border-right: 5px solid #6B6B6B;
+}
+
+.bahagia .jam .kotak h3
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 39px;
+    text-align: center;
+    margin-bottom: -5px;
+    
+    color: #FFFFFE;
+}
+.bahagia .jam .kotak span
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #FFFFFE;
+}
+
+.bahagia .wrapjam .doa
+{
+    margin-top: 10%;
+}
+.bahagia .wrapjam .doa span
+{
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    
+    color: #272727;
+}
+
+.bahagia .wrapjam .doa #kami
+{
+    margin-top: 10%;
+}
+
+.bahagia .wrapjam .orangtua
+{
+    margin-top: 5%;
+}
+.bahagia .wrapjam .orangtua span
+{
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #B38A3B;
+}
+.bahagia .wrapjam .orangtua .bawa #bawa
+{
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 15%;
+    color: #383838;
+}
+
+.bahagia .wrapjam .orangtua .nun #nun
+{
+    font-family: 'Damion';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 10%;
+    color: #383838;
+}
+
+
+.bahagia .acara h1
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 53px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: #313030;
+}
+.bahagia .acara .card
+{
+    
+    border-radius: 60px;
+    padding: 5% 3%;
+    width: 50%;
+    box-shadow: 0px 0px 37px -5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.bahagia .acara .card #resep
+{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    color: #B38A3B;
+    
+}
+
+.bahagia .acara .card .resep .waktu h1
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    text-align: left;
+    color: #383838;
+}
+
+#space
+{
+    width: 80%;
+    text-align: left;
+}
+
+.gmap{
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 50%;
+    min-height: 50px;
+    background-color: #B38A3B;
+}
+.bahagia .acara .card .resep .waktu .iconify
+{
+    width: 13%;
+    margin-right: 5%;   
+}
+#gmap{
+    margin-top: -3%;
+    margin-left: 7px;
+    width: 14%;
+}
+.gmap:hover{
+    transition: 0.5s;
+    background-color: goldenrod;
+}
+
+
+/* acara dan lokasi section */
+
+/* penutup */
+.wrapjam .shanti .bgom .ya
+{
+    content: "";
+    background: url(/public/image/bgshanti.svg) no-repeat;
+    background-position: center; 
+    height: 180%;
+}
+.wrapjam .shanti .bgom
+{
+    margin-top: 10%;
+}
+.wrapjam .shanti .bgom .weda
+{
+    margin-top: -5%;
+}
+ .wrapjam .shanti .bgom  h1
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 31px;
+    color: #1F1E1E;
+    width: 69%;
+}
+
+.wrapjam .shanti .bgom .weda h2
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 31px;
+    color: #B38A3B;
+    
+}  
+#santhi{
+    margin-top: 15%;
+    width: 90%;
+} 
+/* end penutup */
+
+/* galery */
+
+.title-bg{
+    margin-top: 30%;
+}
+.gallery img{
+	/* background: linear-gradient(180deg, #B38A3B 0%, rgba(222, 148, 5, 0.5) 39.58%, rgba(255, 196, 83, 0.668103) 59.9%, #BE7F04 100%); */
+    background: white;
+	padding: 3px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+/* end galery */
+
+.title{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 53px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+/* bukutamu */
+.bukutamu{
+    margin-top: 30%;
+}
+.bg-form-buku{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #B38A3B;
+    background-color:white;
+    border-radius: 20px;
+    padding: 3% 6%;
+    width: 100%;
+    box-shadow: 0px 0px 37px -5px rgba(0, 0, 0, 0.3);
+}
+
+.comment-section .comment-profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.comment-section .comment-profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+    /* padding: 1px; */
+}
+
+.comment-section .comment-desc{
+    color: #212529 !important;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0 !important;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-align: justify;
+}
+.comment-section .comment-name{
+    /* margin-bottom: 15px; */
+}
+
+.btn-hadir{
+    background-color: #B38A3B;
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px !important;
+}
+.btn-hadir:hover , .btn-hadir:focus{
+    background-color: #B38A3B !important;
+    color: white !important;
+    outline: none !important;
+}
+
+.form-label{
+    
+}
+.comment{
+    padding: 3px 7px;
+    height: 10%;
+    margin: 2%;
+}
+.hadir{
+    margin-top: 5px;
+    margin-left:-13px;
+    font-size: 10px;
+    height: 50%;
+    background-color: #BE7F04;
+   
+}
+.hadir span{
+    margin-left: 4px;
+    color: white;
+}
+.ring{
+    width: 60%;
+    margin-left: 9%;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.komen-bg{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: -4%;
+
+
+}
+.text-komen{
+    padding-left: 2%;
+    padding-bottom: 0;
+}
+.comment h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+    color: #383838;
+    margin-bottom: -6%;
+}
+.com-ucapan{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    color: #383838;
+    margin-bottom: -10px;
+}
+.kirim{
+    background-color: #B38A3B;
+    color:white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 20%;
+    min-height: 35px;
+    border: none;
+}
+
+/* width */
+.comment-section::-webkit-scrollbar {
+    
+    width: 10px;
+}
+  
+  /* Track */
+  .comment-section::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .comment-section::-webkit-scrollbar-thumb {
+    background: #BE7F04;
+    border-radius: 50px;
+  }
+  
+
+/* end bukutamu */
+
+@media screen and (max-width:990px) {
+    /* slide */
+    
+    .text-hero{
+        margin-top: 30%; 
+        position: absolute;
+        z-index: 1;
+        color: white;
+    }
+    
+    #pawiwahan{
+        margin-bottom: -6px;
+        font-size: 28px;
+    }
+    #pp{
+        font-size: 59px;
+        
+    }
+    .span-tgl{
+        margin-bottom: -6px;
+        font-size: 17px;
+        line-height: 23px;
+        border-radius:10px;
+        padding: 2px 25px;
+    }
+    /* end slide */
+    /* pengantar */
+
+    .pengantar{
+        margin-top: 15%;
+    }
+    #ormerak{
+        width: 60%;
+    }
+    .swastyastu{
+        width:50%;
+    }
+    #pengantar{
+        margin-top: 10%;
+        font-size: 20px;
+    }
+    #pengantar p{
+        width: 78%;
+    }
+
+    .comment-section .comment-profile{
+        width: 70px;
+        height: 70px;
+    }
+/* end pengantar */
+/* pawiwahan */
+.pawiwahan{
+    margin-top: 20%;
+    min-height: 400px;
+}
+#jpaw{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.ormerak2 img{
+    width: 67%;
+    margin-bottom: 2%;
+}
+.dan{
+    margin-top: 0;
+    font-size: 80px;
+}
+.pur img{
+    width: 65%;
+}
+.pur h1{
+   
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+}
+.pur p{
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+.jmep{
+    margin-top: 150px;
+    font-size: 20px;
+}
+#maniko{
+    width: 64%;
+}
+/* end pawiwahan */
+
+/* acara dan lokasi section */
+.bahagia
+{
+    margin-top: 85px;
+}
+
+#acaralok{
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+.bahagia .acara .card
+{
+    padding: 6% 3%;
+    width: 90%;   
+}
+.acara #ormerak{
+    width: 90% !important;
+}
+.bahagia .acara .card #resep
+{
+    font-size: 42px;
+}
+
+.bahagia .acara .card .resep .waktu h1
+{
+   margin-top: 2px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+#space
+{
+    width: 70%;
+
+}
+
+.gmap{
+    line-height: 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 60%;
+    min-height: 30px;
+}
+
+.bahagia .acara .card .resep .waktu .iconify
+{
+    width: 12%;
+    margin-right: 5%;   
+}
+#gmap{
+    margin-top: -3%;
+    margin-left: 7px;
+    width: 14%;
+}
+.gmap:hover{
+    transition: 0.5s;
+    background-color: goldenrod;
+}
+
+#menuju
+{
+    font-size: 34px;
+    /* identical to box height */
+    margin-top: 8%;
+ 
+    
+}
+
+.jam
+{
+    margin-top: 3%;
+    width: 90%;
+}
+
+.kotak
+{
+    padding-top: 10px;
+    border-radius: 20px;
+    width: 170px;
+    height: 100px;
+}
+
+.bahagia .jam .garis
+{
+    height: 50%;
+    margin: 0 3%;
+    border-right: 4px solid #6B6B6B;
+}
+
+.bahagia .jam .kotak h3
+{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 39px;
+    margin-bottom: -16px;
+    color: #FFFFFE;
+}
+.bahagia .jam .kotak span
+{
+ 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 39px;
+}
+
+.bahagia .wrapjam .doa
+{
+    margin-top: 15%;
+    width: 90%;
+}
+.bahagia .wrapjam .doa span
+{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bahagia .wrapjam .doa #kami
+{
+    margin-top: 10%;
+}
+
+.bahagia .wrapjam .orangtua
+{
+    margin-top: 5%;
+
+}
+.bahagia .wrapjam .orangtua span
+{
+    margin: 0px 100px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+}
+.bahagia .wrapjam .orangtua .bawa #bawa
+{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    margin-bottom: 15%;
+}
+
+.bahagia .wrapjam .orangtua .nun #nun
+{
+   
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    margin-bottom: 15%;
+}
+
+
+/* penutup */
+.wrapjam .shanti .bgom
+{
+    margin-top: 10%;
+}
+.wrapjam .shanti .bgom .weda
+{
+    margin-top: -5%;
+}
+ .wrapjam .shanti .bgom  h1
+{
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #1F1E1E;
+    width: 60%;
+}
+
+.wrapjam .shanti .bgom .weda h2
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 31px;
+    color: #B38A3B;
+    
+} 
+
+/* end penutup *//* penutup */
+.wrapjam .shanti .bgom .ya
+{
+    background: url(/public/image/bgshanti.svg) no-repeat;
+    background-size:700px;
+    background-position: center;
+    height: 160%;
+    width: 100%;
+}
+.wrapjam .shanti .bgom
+{
+    margin-top: 10%;
+     
+}
+.wrapjam .shanti .bgom .weda
+{
+    margin-top: -5%;
+   
+}
+ .wrapjam .shanti .bgom  h1
+{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+    width: 80%;
+    
+}
+#wedabooks{
+    width: 70px;
+    
+}
+.wrapjam .shanti .bgom .weda h2
+{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 31px;
+ 
+} 
+.santhi{
+    margin-top: 15%;
+    width: 80%;
+    
+} 
+.title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    margin-bottom: 5%;
+}
+/* end penutup */
+
+/* galery */
+.galery{
+    margin-top: 300px;
+}
+#ormerak-gal{
+    width: 60%;
+}
+/* end galery */
+/* bukutamu */
+.bukutamu{
+    margin-top: 100px;
+}
+#ormerak3{
+    width: 50%;
+}
+.bg-form-buku{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    padding: 3% 6%;
+    width: 100%;
+}
+.hadir{
+    margin-top: 5px;
+    margin-left:0px;
+    font-size: 10px;
+    height: 50%;
+}
+.hadir span{
+    width: 30px;
+    margin-left: 4px;
+}
+.ring{
+    width: 5%;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.komen-bg{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: -4%;
+}
+.text-komen{
+    padding-left: 2%;
+    padding-bottom: 0;
+}
+.comment h1{
+    font-weight: 700;
+    font-size: 5px;
+    line-height: 35px;
+    margin-bottom:-6%;
+}
+.com-ucapan{
+    font-weight: 500;
+    font-size:5px;
+    line-height: 35px;
+    margin-bottom: -10px;
+}
+.kirim{
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 20%;
+    min-height: 35px;
+}
+  
+/* end bukutamu */
+
+}
+@media screen and (max-width:680px) {
+    .slide-pc{
+        display: none;
+    }
+    .slide-mobile{
+        display: block;
+    }
+    /* slide */
+    
+    .text-hero{
+        margin-top: 60%; 
+        position: absolute;
+        z-index: 1;
+        color: white;
+    }
+    
+    #pawiwahan{
+        margin-bottom: -6px;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 20px;
+    }
+    #pp{
+        font-weight: 500;
+        font-size: 55px;
+        line-height: 115px;
+        
+    }
+    .span-tgl{
+        margin-bottom: -6px;
+        font-size: 13px;
+        line-height: 23px;
+        border-radius:10px;
+        padding: 2px 25px;
+    }
+    /* end slide */
+    .dan{
+        margin-top: 0;
+        font-weight: 700;
+        font-size: 60px;
+        
+    }
+    .title{
+        font-family: 'David Libre';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 53px;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+    /* pengantar */
+
+    .pengantar{
+        margin-top: 15%;
+    }
+    #ormerak{
+        width: 50%;
+    }
+    .swastyastu{
+        width:40%;
+    }
+    #pengantar{
+        margin-top: 10%;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    #pengantar p{
+        width: 75%;
+    }
+
+    .comment-section .comment-profile{
+        width: 70px;
+        height: 70px;
+    }
+/* end pengantar */
+/* pawiwahan */
+.pawiwahan{
+    margin-top: 10%;
+    min-height: 400px;
+}
+#jpaw{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+.ormerak2 img{
+    width: 65%;
+    margin-bottom: 2%;
+}
+.dan{
+    
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 115px;
+    text-align: center;
+    color: #B38A3B;
+}
+.pur img{
+    width: 65%;
+}
+.pur h1{
+   
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+}
+.pur p{
+    padding: 0 30px;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+.jmep{
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+#maniko{
+    width: 60%;
+}
+/* end pawiwahan */
+
+/* acara dan lokasi section */
+.bahagia
+{
+    margin-top: 72px;
+}
+
+#acaralok{
+    
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 5%;
+    font-size: 26px;
+}
+
+.bahagia .acara .card
+{
+    
+    border-radius: 60px;
+    padding: 6% 3%;
+    width: 70%;
+    box-shadow: 0px 0px 37px -5px rgba(0, 0, 0, 0.3);
+    
+}
+
+.bahagia .acara .card #resep
+{
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 70px;
+    
+}
+
+.bahagia .acara .card .resep .waktu h1
+{
+   margin-top: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+}
+
+#space
+{
+    width: 70%;
+
+}
+
+.gmap{
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 60%;
+    min-height: 30px;
+    background-color: #B38A3B;
+}
+
+.bahagia .acara .card .resep .waktu .iconify
+{
+    width: 12%;
+    margin-right: 5%;   
+}
+#gmap{
+    margin-top: -3%;
+    margin-left: 7px;
+    width: 14%;
+}
+.gmap:hover{
+    transition: 0.5s;
+    background-color: goldenrod;
+}
+
+#menuju
+{
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 70px;
+    /* identical to box height */
+    margin-top: 7%;
+ 
+    
+}
+
+.jam
+{
+    margin-top: 3%;
+    width: 50%;
+}
+
+.kotak
+{
+    padding-top: 10px;
+    border-radius: 20px;
+    width: 170px;
+    height: 75px;
+}
+
+.bahagia .jam .garis
+{
+    height: 50%;
+    margin: 0 3%;
+    border-right: 4px solid #6B6B6B;
+}
+
+.bahagia .jam .kotak h3
+{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 39px;
+    margin-bottom: -16px;
+    
+    color: #FFFFFE;
+}
+.bahagia .jam .kotak span
+{
+ 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 39px;
+}
+
+.bahagia .wrapjam .doa
+{
+    margin-top: 15%;
+    width: 50%;
+}
+.bahagia .wrapjam .doa span
+{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.bahagia .wrapjam .doa #kami
+{
+    margin-top: 10%;
+}
+
+.bahagia .wrapjam .orangtua
+{
+    margin-top: 5%;
+
+}
+.bahagia .wrapjam .orangtua span
+{
+    margin: 0px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+}
+.bahagia .wrapjam .orangtua .bawa #bawa
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+    margin-bottom: 15%;
+}
+
+.bahagia .wrapjam .orangtua .nun #nun
+{
+   
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 44px;
+    margin-bottom: 15%;
+}
+
+
+/* penutup */
+.wrapjam .shanti .bgom .ya
+{
+    content: "";
+    background: url(/public/image/bgshanti.svg) no-repeat;
+    background-position: center; 
+    height: 80%;
+}
+.wrapjam .shanti .bgom
+{
+    margin-top: 10%;
+}
+.wrapjam .shanti .bgom .weda
+{
+    margin-top: -5%;
+}
+ .wrapjam .shanti .bgom  h1
+{
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #1F1E1E;
+    width: 60%;
+}
+
+.wrapjam .shanti .bgom .weda h2
+{
+    font-family: 'David Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 31px;
+    color: #B38A3B;
+    
+}  
+#santhi{
+    margin-top: 15%;
+    width: 60%;
+}  
+
+/* end penutup *//* penutup */
+.wrapjam .shanti .bgom .ya
+{
+    background: url(/public/image/bgshanti.svg) no-repeat;
+    background-size:400px;
+    background-position: center;
+    height: 120%;
+    width: 100%;
+}
+.wrapjam .shanti .bgom
+{
+    margin-top: 10%;
+     
+}
+.wrapjam .shanti .bgom .weda
+{
+    margin-top: -5%;
+   
+}
+ .wrapjam .shanti .bgom  h1
+{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 31px;
+    width: 45%;
+    
+}
+#wedabooks{
+    width: 40px;
+    
+}
+.wrapjam .shanti .bgom .weda h2
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+ 
+} 
+.santhi{
+    margin-top: 15%;
+    width: 80%;
+    
+} 
+.title{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 53px;
+    margin-bottom: 5%;
+}
+/* end penutup */
+
+/* galery */
+.galery{
+    margin-top: 200px;
+}
+#ormerak-gal{
+    width: 60%;
+}
+/* end galery */
+/* bukutamu */
+.bukutamu{
+    margin-top: 100px;
+}
+#ormerak3{
+    width: 50%;
+}
+.bg-form-buku{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    padding: 3% 6%;
+    width: 100%;
+}
+.hadir{
+    margin-top: 5px;
+    margin-left:0px;
+    font-size: 10px;
+    height: 50%;
+}
+.hadir span{
+    width: 30px;
+    margin-left: 4px;
+}
+.ring{
+    width: 5%;
+    border-radius: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.komen-bg{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: -4%;
+}
+.text-komen{
+    padding-left: 2%;
+    padding-bottom: 0;
+}
+.comment h1{
+    font-weight: 700;
+    font-size: 5px;
+    line-height: 35px;
+    margin-bottom:-6%;
+}
+.com-ucapan{
+    font-weight: 500;
+    font-size:5px;
+    line-height: 35px;
+    margin-bottom: -10px;
+}
+.kirim{
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 20%;
+    min-height: 35px;
+}
+  
+/* end bukutamu */
+
+}
+/* 
+.carousel-item{
+    animation: fade 8s infinite;
+}
+.carousel-item{
+    animation: fade 8s infinite;
+}
+.carousel-item{
+    animation: fade 8s infinite;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
