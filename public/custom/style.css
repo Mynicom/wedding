@@ -1,40 +1,106 @@
-/* slide section */
 html,body{
     margin: 0%;
     width: 100%;
     height: 100%;  
 }
+/* cover */
+.buka-undang{
+    float: left;
+    display: block;
+    position: fixed;
+    z-index: 7;
+    color: black;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.buka-undangan{
+    width:100%;
+    height: 100%;
+      
+}
+.ppund{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 70px;
+    line-height: 115px;
+}
+.hero-undang{
+    background: rgba(0, 0, 0, 0.10);
+    margin-top: 50px;
+    border-radius: 90px;
+    padding: 70px;
+    width: 100%;
+    min-height: 200px;
+    color: white;
+    
+}
+.untuk{
+    margin-top: 100px;
+}
+.tamu{
+    text-transform:capitalize;
+}
+/* slide section */
+@-webkit-keyframes zoom {
+    from {
+      -webkit-transform: scale(1, 1);
+    }
+    to {
+      -webkit-transform: scale(1.2, 1.2);
+    }
+  }
+  
+  @keyframes zoom {
+    from {
+      transform: scale(1, 1);
+    }
+    to {
+      transform: scale(1.2, 1.2);
+    }
+  }
+  
+  .carousel-inner .item > img {
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+  }
+
+  .slide{
+    z-index: -1;
+    position: absolute;
+    width:100%;
+    height:100%; 
+  }
+  .slider-bg{
+    width:100%;
+    min-height: 500px;
+  }
+  .carousel-item{
+    width: 100%;
+  }
+  .item img{
+    object-position: 0 75%;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100vh;
+  }
+
+/* slide carousel */
 .slide-mobile{
     display: none;
 }
 .bg-hero{
-   
     z-index: -1;
     width: 100%;
     height: 100%;
 }
-.slideshow {
-    position: absolute;
-    width:100%;
-    height:100vh; 
-  }
-  .slideshow .slider-track {
-    transition: all 1s ease;
-  }
-  .slideshow .item {
-    width: 100%;
-    height:100vh; 
-  }
-  .slideshow .item img{
-    margin-top: -5%;
-    width: 100%;
-    height: 100%;
-    transition: all 2s ease;
-    transform: scale(1);
-  }
-  .slideshow .item.slick-active img {
-    transform: scale(1.2);
-  }
+
+  /* cover hitam */
 .cover-hitam{
     width: 100%;
     position: absolute;
@@ -46,15 +112,16 @@ html,body{
 }
 .wave img{
     width: 100%;
-    position: relative; 
+    position: relative;
+    margin-top: -35%; 
     z-index: 1;
-    margin-top: -32%;
+   
 }
 .bg-putih{
     z-index: 1;
     position: relative; 
     background-color: white;
-    margin-top: -2%;
+    margin-top: -4%;
     width: 100%;
     min-height: 80px;
 }
@@ -75,6 +142,9 @@ html,body{
     font-weight: 700;
     font-size: 35px;
     line-height: 20px;
+}
+.container-pawiwahan{
+    overflow: hidden;
 }
 #pp{
     font-family: 'Dancing Script';
@@ -455,8 +525,6 @@ html,body{
 /* penutup */
 .wrapjam .shanti .bgom .ya
 {
-    content: "";
-    background: url(/public/image/bgshanti.svg) no-repeat;
     background-position: center; 
     height: 180%;
 }
@@ -563,9 +631,6 @@ html,body{
     line-height: 20px;
     text-align: justify;
 }
-.comment-section .comment-name{
-    /* margin-bottom: 15px; */
-}
 
 .btn-hadir{
     background-color: #B38A3B;
@@ -579,9 +644,6 @@ html,body{
     outline: none !important;
 }
 
-.form-label{
-    
-}
 .comment{
     padding: 3px 7px;
     height: 10%;
@@ -671,13 +733,112 @@ html,body{
   
 /* end bukutamu */
 /* footer */
+
+.sunari h1{
+    color: white; 
+    font-size:24px;
+}
 .sunari img{
     width: 100px;
 }
 /* endfooter */
+/* audio */
+.toggle-sound {
+    position: fixed;
+    top: calc(90% - 25.5px);
+    left: 20px;
+    background-color: #B38A3B;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 5;
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    box-shadow: 0 0 0 0 #B38A3B;
+}
+.toggle-sound.sound-mute {
+  box-shadow: none;
+}
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+
+.sound {
+  width: 97%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  margin-left: -15%;
+}
+.sound--icon {
+  color: inherit;
+  line-height: inherit;
+  font-size: 2.6rem;
+  width: 20px;
+  margin: auto;
+  display: block;
+  text-align: left;
+  padding-left: 5px;
+}
+.sound--wave {
+  position: absolute;
+  border: 2px solid transparent;
+  border-right: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 200ms;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.sound--wave_one {
+  width: 45%;
+  height: 40%;
+}
+.sound--wave_two {
+  width: 70%;
+  height: 62%;
+}
+.sound--wave_three {
+width: 95%;
+height:75%;
+}
+.sound-mute .sound--wave {
+border-radius: 0;
+width: 35%;
+height: 35%;
+border-width: 0 2px 0 0;
+left: 5px;
+}
+.sound-mute .sound--wave_one {
+  -webkit-transform: rotate(45deg) translate3d(0, -50%, 0);
+          transform: rotate(45deg) translate3d(0, -50%, 0);
+}
+.sound-mute .sound--wave_two {
+  -webkit-transform: rotate(-45deg) translate3d(0, 50%, 0);
+          transform: rotate(-45deg) translate3d(0, 50%, 0);
+}
+.sound-mute .sound--wave_three {
+    opacity: 0;
+    transform: translateX(-46%);
+    height: 20%;
+
+}
+/* end audio */
 
 @media screen and (max-width:990px) {
     /* slide */
+    .slide-mobile{
+        display: none;
+    }
     
     .text-hero{
         margin-top: 30%; 
@@ -960,7 +1121,7 @@ html,body{
 /* end penutup *//* penutup */
 .wrapjam .shanti .bgom .ya
 {
-    background: url(/public/image/bgshanti.svg) no-repeat;
+    
     background-size:700px;
     background-position: center;
     height: 160%;
@@ -1088,14 +1249,14 @@ html,body{
 }
 
 .rebab{
-    width: 80px !important;
+    width: 50px !important;
     top: 70px !important;
     right: 30px !important;
 }
 .calung{
     position: absolute;
     left: 25px !important;
-    width: 100px !important;
+    width: 80px !important;
 }
 .mandala-kiri-mepandes { 
     width: 120px !important;
@@ -1116,21 +1277,95 @@ html,body{
     top: -70px ;
 }
 .jegog{
-    position: absolute;
-    width: 90px !important;
-    right: 10px !important;
-    top: 900px !important;
+    width: 80px !important;
+    right: 20px !important;
+    top: 800px !important;
 }
 
 
 }
-@media screen and (max-width:680px) {
+@media screen and (max-width:690px) {
+    .buka-undang{
+        float: left;
+        display: block;
+        position: fixed;
+        z-index: 7;
+        color: black;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .buka-undangan{
+        width:100%;
+        height: 100%;
+       
+    }
+    .hero-undang{
+        padding: 20px;
+        margin-top: 16vh;
+        width: 100%;
+        min-height: 700px;
+        color: #B38A3B;
+         background: rgba(0, 0, 0, 0);
+    }
+    .hero-undang #pawiwahan{
+        font-size: 18px;
+        margin-bottom: -30px;  
+    }
+    .ppund{
+        font-size: 35px;
+    }
+    .untuk{
+        color: #212529;
+        margin-top: -15px;
+        font-size: 12px;
+    }
+
+
     .mandala-kanan-pawiwahan{
         width: 20%;
         top: -70px ;
     }
     .mandala-kanan-bahagia{
         display:none;
+    }
+    .mandala-kiri-bahagia{
+        position: absolute;
+        top: 100px;
+        z-index: -2;
+    }
+    .jegog{
+        width: 50px !important;
+        right: 10px !important;
+        top: 100px !important;
+    }
+    .mandala-kiri-pengantar{
+        width: 80px !important;
+        top: 30px !important;
+    }.calung{
+        position: absolute;
+        left: 25px !important;
+        width: 100px !important;
+    }
+    .mandala-kiri-mepandes { 
+        width: 90px !important;
+        position: absolute;
+        bottom: 450px !important;
+    }
+    .gender{
+        position: absolute;
+        right: 25px !important; 
+        bottom: 540px !important;
+        width: 70px !important;
+    }
+    .kendang{
+        position: absolute;
+        left: 16px !important; 
+        width: 120px !important  ;
+        top: -70px !important;
     }
     .slide-pc{
         display: none;
@@ -1139,9 +1374,31 @@ html,body{
         display: block;
     }
     /* slide */
+    .slide{
+        z-index: -1;
+        position: absolute;
+        width:100%;
+        height:100%; 
+      }
+      .slider-bg{
+        width:100%;
+        height: 100%;
+      }
+      .carousel-item{
+        width: 100%;
+      }
+      .item img{
+        object-position: 0 0px;
+        object-fit: fill;
+        display: block;
+        width: 100%;
+        height: 100vh;
+      }
+      
+    /* slide carousel */
     
     .text-hero{
-        margin-top: 60%; 
+        margin-top: 60vh; 
         position: absolute;
         z-index: 1;
         color: white;
@@ -1207,32 +1464,6 @@ html,body{
         width: 70px;
         height: 70px;
     }
-    .mandala-kiri-pengantar{
-        width: 80px !important;
-        top: 30px !important;
-    }
-    .calung{
-        position: absolute;
-        left: 25px !important;
-        width: 80px !important;
-    }
-    .mandala-kiri-mepandes { 
-        width: 90px !important;
-        position: absolute;
-        bottom: 450px !important;
-    }
-    .gender{
-        position: absolute;
-        right: 25px !important; 
-        bottom: 540px !important;
-        width: 70px !important;
-    }
-    .kendang{
-        position: absolute;
-        left: 16px !important; 
-        width: 120px !important  ;
-        top: -70px !important;
-    }
 /* end pengantar */
 /* pawiwahan */
 .pawiwahan{
@@ -1242,8 +1473,8 @@ html,body{
 #jpaw{
     font-weight: 500;
     font-size: 25px;
-    line-height: 10px;
-    margin-bottom: 20px;
+    line-height: 40px;
+    margin-bottom: 0px;
 }
 .ormerak2 img{
     width: 65%;
@@ -1303,8 +1534,8 @@ html,body{
 {
     
     border-radius: 60px;
-    padding: 6% 3%;
-    width: 70%;
+    padding: 6% 4%;
+    width: 90%;
     box-shadow: 0px 0px 37px -5px rgba(0, 0, 0, 0.3);
     
 }
@@ -1321,13 +1552,13 @@ html,body{
 {
    margin-top: 2px;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 35px;
+    font-size: 13px;
+    line-height: 20px;
 }
 
 #space
 {
-    width: 70%;
+    width: 75%;
 
 }
 
@@ -1372,14 +1603,14 @@ html,body{
 .jam
 {
     margin-top: 3%;
-    width: 65%;
+    width: 85%;
 }
 
 .kotak
 {
     padding-top: 10px;
     border-radius: 20px;
-    width: 250px;
+    width: 390px;
     height: 70px;
 }
 
@@ -1396,8 +1627,6 @@ html,body{
     font-size: 25px;
     line-height: 39px;
     margin-bottom: -16px;
-    
-    color: #FFFFFE;
 }
 .bahagia .jam .kotak span
 {
@@ -1410,7 +1639,7 @@ html,body{
 .bahagia .wrapjam .doa
 {
     margin-top: 15%;
-    width: 50%;
+    width: 90%;
 }
 .bahagia .wrapjam .doa span
 {
@@ -1422,24 +1651,26 @@ html,body{
 .bahagia .wrapjam .doa #kami
 {
     margin-top: 10%;
+    margin-left: -20px;
 }
 
 .bahagia .wrapjam .orangtua
 {
     margin-top: 5%;
+    margin-left: -20px;
 
 }
 .bahagia .wrapjam .orangtua span
 {
     margin: 0px 30px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 44px;
 }
 .bahagia .wrapjam .orangtua .bawa #bawa
 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 44px;
     margin-bottom: 15%;
 }
@@ -1448,8 +1679,8 @@ html,body{
 {
    
     font-weight: 400;
-    font-size: 18px;
-    line-height: 44px;
+    font-size: 15px;
+    line-height: 47px;
     margin-bottom: 15%;
 }
 
@@ -1458,7 +1689,6 @@ html,body{
 .wrapjam .shanti .bgom .ya
 {
     content: "";
-    background: url(/public/image/bgshanti.svg) no-repeat;
     background-position: center; 
     height: 80%;
 }
@@ -1498,7 +1728,6 @@ html,body{
 /* end penutup *//* penutup */
 .wrapjam .shanti .bgom .ya
 {
-    background: url(/public/image/bgshanti.svg) no-repeat;
     background-size:400px;
     background-position: center;
     height: 120%;
@@ -1519,7 +1748,7 @@ html,body{
     font-weight: 500;
     font-size: 15px;
     line-height: 31px;
-    width: 45%;
+    width: 100%;
     
 }
 #wedabooks{
@@ -1569,6 +1798,12 @@ html,body{
     padding: 3% 6%;
     width: 100%;
 }
+.bg-form-buku label{
+    font-weight: 700;
+    font-size: 14px !important;
+    line-height: 30px;
+    border-radius: 20px;
+}
 .hadir{
     margin-top: 5px;
     margin-left:0px;
@@ -1594,12 +1829,7 @@ html,body{
     padding-left: 2%;
     padding-bottom: 0;
 }
-.comment h1{
-    font-weight: 700;
-    font-size: 5px;
-    line-height: 35px;
-    margin-bottom:-6%;
-}
+
 .com-ucapan{
     font-weight: 500;
     font-size:5px;
@@ -1623,9 +1853,21 @@ html,body{
 .kendang{
     display: none;
 
+}.calung{
+    position: absolute;
+    left: 25px !important;
+    top:-20px !important;
+    width: 70px !important;
 }
   
 /* end bukutamu */
+.sunari h1{
+    color: white; 
+    font-size:18px;
+}
+.sunari img{
+    width: 100px;
+}
 
 }
 
@@ -1672,28 +1914,4 @@ html,body{
     top: 50px;
     right: 70px;
 }
-/* 
-.carousel-item{
-    animation: fade 8s infinite;
-}
-.carousel-item{
-    animation: fade 8s infinite;
-}
-.carousel-item{
-    animation: fade 8s infinite;
-}
 
-@keyframes fade {
-    0%{
-        opacity: 0;
-    }
-    25%{
-        opacity: 1;
-    }
-    75%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 1;
-    }
-} */
