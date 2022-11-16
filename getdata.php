@@ -1,5 +1,5 @@
 <?php
-	$con = mysqli_connect("sql109.epizy.com","epiz_33000611","1fmExXtoBKMTJ","epiz_33000611_wedding"); 
+	$con = mysqli_connect("localhost","root","","wedding");  
 	$query = "SELECT * FROM buku_tamu ORDER BY id desc" ;
 	$data = mysqli_query($con,$query);
 	$rows=array();

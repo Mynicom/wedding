@@ -1,5 +1,5 @@
 <?php 
-		$con = mysqli_connect("sql109.epizy.com","epiz_33000611","1fmExXtoBKMTJ","epiz_33000611_wedding"); 
+		$con = mysqli_connect("localhost","root","","wedding"); 
 		$nama = $_POST["nama"];
 		$ucapan = $_POST["ucapan"];
 		$kehadiran = $_POST["kehadiran"];

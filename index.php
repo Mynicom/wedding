@@ -21,11 +21,11 @@
   </head>
   <body>
 
-  <audio id="bg-song" autoplay="autoplay" loop>
+  <audio id="bg-song" loop>
     <source src="public/song.mp3" type="audio/mp3">
   </audio>
 
-    <div class="buka-undang" data-aos="zoom-in" data-aos-duration="500">
+    <div class="buka-undang" data-aos="zoom-in" data-aos-duration="300">
       <div class="buka-undangan d-flex justify-content-center align-items-center">
           <div class="flex-column d-flex justify-content-center text-center align-items-center hero-undang">
           <h1 id="pawiwahan">Pawiwahan</h1>
@@ -225,7 +225,7 @@
                           class="iconify"
                           data-icon="bx:calendar"
                           style="color: #b38a3b"></i>
-                        <h1 id="space">20 November 2022</h1>
+                        <h1 id="space">24 November 2022</h1>
                       </div>
 
                       <div
@@ -575,6 +575,7 @@
     <script>
       $(".bukaundangan").click(function(){
         $(".buka-undang").fadeOut("medium");
+        document.getElementById('bg-song').play();
        
       });
     </script>
@@ -583,8 +584,6 @@
       let tamu = urlParams.get('to');
       $(".tamu").html(tamu)
     </script>
-
-    
     
   </body>
 </html>

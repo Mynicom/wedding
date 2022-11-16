@@ -6,19 +6,30 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Damion&family=Dancing+Script:wght@400;500;600;700&family=David+Libre:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="public/custom/style.css">
+    <link rel="stylesheet" href="public/custom/style.css?id=1.1">
     <link rel="stylesheet" href="public/font-awesome/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <style>.buka-undang{
+      background-image: url('./public/image/img/cover-pc.webp');
+    }
+    @media screen and (max-width:690px) {.buka-undang{
+      background-image: url('./public/image/img/cover-hp.webp');
+    }
+  }
+  </style>
   <title>Wedding Purnama Purni</title>
   </head>
   <body>
 
+  <audio id="bg-song" autoplay="autoplay" loop>
+    <source src="public/song.mp3" type="audio/mp3">
+  </audio>
+
     <div class="buka-undang" data-aos="zoom-in" data-aos-duration="500">
-      <div class="buka-undangan d-flex justify-content-center">
-          <div class="flex-column justify-content-center text-center align-items-center hero-undang">
+      <div class="buka-undangan d-flex justify-content-center align-items-center">
+          <div class="flex-column d-flex justify-content-center text-center align-items-center hero-undang">
           <h1 id="pawiwahan">Pawiwahan</h1>
-          <p id="pp" class="mb-3">Purnama & Purni</p>
+          <p class="mb-3 ppund">Purnama & Purni</p>
           <div class="untuk mb-5">
               <h1 class="tamu">kamu</h1>
               <p>Tanpa mengurangi rasa hormat, Kami mengundang Anda untuk hadir di Acara Pernikahan Kami.</p>
@@ -38,34 +49,41 @@
         </div>
       </div>
 
-      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade slide-pc" data-bs-ride="carousel">
         <div class="carousel-inner slider-bg">
           <div class="carousel-item active item" data-bs-interval="7000">
-            <img src="public/image/slide/1.webp" alt="...">
+            <img src="public/image/galery/7.webp" alt="...">
           </div>
           <div class="carousel-item item" data-bs-interval="7000">
-            <img src="public/image/slide/2.webp" alt="...">
+            <img src="public/image/galery/9.webp" alt="...">
           </div>
           <div class="carousel-item item" data-bs-interval="7000">
-            <img src="public/image/slide/3.webp" alt="...">
+            <img src="public/image/galery/10.webp" alt="...">
+          </div>
+          <div class="carousel-item item" data-bs-interval="7000">
+            <img src="public/image/galery/15.webp" alt="...">
           </div>
         </div>
       </div>
-
       <div id="carouselExampleFade" class="carousel slide carousel-fade slide-mobile" data-bs-ride="carousel">
         <div class="carousel-inner slider-bg">
           <div class="carousel-item active item" data-bs-interval="7000">
-            <img src="public/image/slide/1.webp" alt="...">
+            <img src="public/image/galery/1.webp" alt="...">
           </div>
           <div class="carousel-item item" data-bs-interval="7000">
-            <img src="public/image/slide/2.webp" alt="...">
+            <img src="public/image/galery/2.webp" alt="...">
           </div>
           <div class="carousel-item item" data-bs-interval="7000">
-            <img src="public/image/slide/3.webp" alt="...">
+            <img src="public/image/galery/5.webp" alt="...">
+          </div>
+          <div class="carousel-item item" data-bs-interval="7000">
+            <img src="public/image/galery/4.webp" alt="...">
+          </div>
+          <div class="carousel-item item" data-bs-interval="7000">
+            <img src="public/image/galery/16.webp" alt="...">
           </div>
         </div>
       </div>
-
 
       <div class="cover-hitam"></div>
     </section>
@@ -272,7 +290,7 @@
               <div class="orangtua col-lg-6 d-flex justify-content-between" data-aos="fade-up" data-aos-duration="3000">
                 <div class="bawa d-flex flex-column">
                   <span id="bawa"> Keluarga </span>
-                  <span> I Wayan Bawa </span>
+                  <span> Jro Mangku Bawa </span>
                 </div>
 
                 <div class="nun d-flex flex-column">
@@ -331,33 +349,59 @@
           </div>
         </div>
         <div class="gallery" >
-          <div class="container-lg " data-aos="fade-up" data-aos-duration="4000">
+          <div class="container-lg " data-aos="fade-up" data-aos-duration="2000">
              <div class="row gy-2 row-cols-1 row-cols-sm-2 row-cols-md-3 g-2">
                 <div class="col">
-                   <img src="public/image/img/1.jpg" class="gallery-item" alt="gallery">
+                   <img src="public/image/galery/1.webp" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
-                   <img src="public/image/img/2.jpg" class="gallery-item" alt="gallery">
+                   <img src="public/image/galery/2.webp" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
-                   <img src="public/image/img/3.jpg" class="gallery-item" alt="gallery">
+                   <img src="public/image/galery/3.webp" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
-                   <img src="public/image/img/4.jpg" class="gallery-item" alt="gallery">
+                   <img src="public/image/galery/4.webp" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
-                   <img src="public/image/img/5.jpg" class="gallery-item" alt="gallery">
+                   <img src="public/image/galery/5.webp" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
-                   <img src="public/image/img/6.jpg" class="gallery-item" alt="gallery">
+                   <img src="public/image/galery/6.webp" class="gallery-item" alt="gallery">
                 </div>
+                <div class="col">
+                   <img src="public/image/galery/7.webp" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                   <img src="public/image/galery/8.webp" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                   <img src="public/image/galery/9.webp" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                   <img src="public/image/galery/10.webp" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                   <img src="public/image/galery/11.webp" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                   <img src="public/image/galery/12.webp" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                   <img src="public/image/galery/13.webp" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                   <img src="public/image/galery/14.webp" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                   <img src="public/image/galery/15.webp" class="gallery-item" alt="gallery">
+                </div>
+                
              </div>
           </div>
         </div>
        </section>
       </div>
-
-       
 
         <section class="bukutamu">
           <div class="col-lg-12 justify-content-center text-center flex-column">
@@ -368,53 +412,33 @@
           </div>
           <div class="bg-form-buku" data-aos="fade-up" data-aos-duration="4000">
             <div class="form-buku">
+              <form>
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nama</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1">
+                <input type="text" class="form-control" id="nama" required>
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Ucapan</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="ucapan" rows="3" required></textarea>
               </div>
               <div class="mb-3">
-                <label for="form-select" class="form-label">Kehadiran</label>
-                <select class="form-select" aria-label="Default select example">
-                  <option value="1">Hadir</option>
-                  <option value="2">Akan hadir</option>
-                  <option value="3">Tidak Hadir</option>
+                <label for="form-select"  class="form-label">Kehadiran</label>
+                <select class="form-select" aria-label="Default select example" id="kehadiran">
+                  <option value="Hadir">Hadir</option>
+                  <option value="Akan Hadir">Akan hadir</option>
+                  <option value="Tidak Hadir">Tidak Hadir</option>
                 </select>
               </div>
               <div class="mb-5 mt-5 col d-flex justify-content-center">
-                  <button class="kirim">Kirim</button>
+                  <button onclick="tambahdata(event)" type="submit" class="kirim">Kirim</button>
               </div>
+            </form> 
             </div>
             <div class="card comment-section bg-light">
               <div class="card-body py-5">
                 <h2 class="text-center mb-3">Ucapan</h2>
                 <div class="row justify-content-center">
                   <div class="col-12 col-md-8 col-lg-12 px-lg-3 ucapan-bg" style="max-height: 500px; min-height: 500px; overflow-y: scroll;">
-
-                    <div class="card mb-3">
-                      <div class="card-body">
-                        <div class="row">
-                          <div class="col-lg-2 mb-3 mb-lg-0">
-                            <div class="comment-profile m-auto m-lg-0">
-                              <img src="./public/image/Ellipse 1.png" alt="">  
-                            </div>
-                          </div>
-                          <div class="col-lg-10">
-                            <label class="comment-name d-block text-center text-lg-start" for="">Gede Yoga Permana Putra Anjay Mabar</label>
-                            <div class="text-center text-lg-start mb-3">
-                              <span class="btn btn-sm btn-hadir text-center">
-                              <i class="iconify" data-icon="akar-icons:circle-check-fill" style="color: white;"></i>
-                              Hadir
-                            </span>
-                            </div>
-                            <p class="comment-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consectetur velit sapiente! Minima ex vero beatae cumque totam sit ipsam, in, eius, asperiores veniam voluptatibus. Facere earum molestiae maiores exercitationem?</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
                     <div class="komentar-data"></div>
                     
@@ -442,11 +466,6 @@
       </div>
     </section>
 
-    <audio id="bg-song" autoplay loop>
-      <source src="public/audio.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-
     <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
@@ -459,18 +478,45 @@
         </div>
       </div>
     </div>
+
+<!-- Modal -->
+<div class="modal fade" id="terimakasi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body d-flex ">
+        <h1 class="text-center">Terimakasih Ucapannya</h1>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="mohon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body d-flex ">
+        <h1 class="text-center">Mohon Diisi Kolomnya</h1>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="public/dist/js/bootstrap.bundle.min.js"></script>
     <script src="public/dist/js/bootstrap.min.js"></script>
     <script src="https://code.iconify.design/3/3.0.0/iconify.min.js"></script>
-    <script src="public/custom/main.js"></script>
+    <script src="public/custom/main.js?id=1.1"></script>
     <script src="public/dist/jquery-3.6.1.min.js"></script>
-    <script src="public/custom/custom.js"></script>
+    <script src="public/custom/custom.js?id=1.1"></script>
    
     <script>
       AOS.init();
     </script>
+   
 
     <script>
       $(document).on('click', '.toggle-sound', function(e) {
@@ -537,6 +583,8 @@
       let tamu = urlParams.get('to');
       $(".tamu").html(tamu)
     </script>
+
+    
     
   </body>
 </html>
